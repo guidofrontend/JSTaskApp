@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>JS Task App</title>
+</head>
+<body>
+    <h1>Task App</h1>
+    <main>
+        <div class="form-container">
+            <form id="form" class="form">
+                <input id="title" class="title" type="text" placeholder="Task" size="20" />
+                <textarea id="description" class="description" name="description" id="descript" cols="30" rows="10" placeholder="Description"></textarea>
+                <input class="btn" type="submit" value="Save">
+            </form>
+        </div>
+        <div id="tasksContainer" class="tasksContainer">
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
